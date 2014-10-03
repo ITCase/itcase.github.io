@@ -8,5 +8,9 @@ serve:
 
 production: build 
 	git checkout master
-	git rm -rf .
+	git rm -rf . --cached .gitignore
 	cp -r _build/* .
+	git add .
+	git commit -a -m "Add works."
+	git push orign master
+	git checkout develop
