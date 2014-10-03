@@ -1,0 +1,10 @@
+nohup.out
+.ropeproject
+*.pyc
+
+# Docs
+_build
+
+# Tox
+.tox
+__pycache__
