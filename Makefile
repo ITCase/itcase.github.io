@@ -12,5 +12,5 @@ production: build
 	cp -r _build/* .
 	git add .
 	git commit -a -m "Add works."
-	git push orign master
+	git push origin master
 	git checkout develop
